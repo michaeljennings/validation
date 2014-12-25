@@ -1,4 +1,4 @@
-<?php namespace Gmlconsulting\Validation;
+<?php namespace Mikeyj199\Validation;
 
 use Closure, Config;
 
