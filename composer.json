@@ -1,0 +1,20 @@
+{
+    "name": "mikeyj199/validation",
+    "description": "A laravel 4 validation package",
+    "authors": [
+        {
+            "name": "Michael Jennings",
+            "email": "michael.jennings91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mikeyj199\\Validation\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
