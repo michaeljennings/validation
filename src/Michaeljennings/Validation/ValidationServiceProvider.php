@@ -1,4 +1,4 @@
-<?php namespace Mikeyj199\Validation;
+<?php namespace Michaeljennings\Validation;
 
 use Illuminate\Validation\Factory;
 use Illuminate\Support\ServiceProvider;

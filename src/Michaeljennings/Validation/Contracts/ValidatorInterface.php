@@ -1,4 +1,4 @@
-<?php namespace Mikeyj199\Validation\Contracts;
+<?php namespace Michaeljennings\Validation\Contracts;
 
 use Closure;
 

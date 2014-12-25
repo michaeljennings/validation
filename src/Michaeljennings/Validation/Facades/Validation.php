@@ -1,4 +1,4 @@
-<?php namespace Mikeyj199\Validation\Facades;
+<?php namespace Michaeljennings\Validation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,5 +1,5 @@
 {
-    "name": "mikeyj199/validation",
+    "name": "michaeljennings/validation",
     "description": "A laravel 4 validation package",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Mikeyj199\\Validation\\": "src/"
+            "Michaeljennings\\Validation\\": "src/"
         }
     },
     "minimum-stability": "dev"
