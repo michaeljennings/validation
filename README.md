@@ -5,7 +5,7 @@ quicker and simpler.</p>
 <p>Include the package in your <code>composer.json</code>.</p>
 <pre>
   <code>
-"michaeljennings/validation": "dev-master"
+"michaeljennings/validation": "1.0"
   </code>
 </pre>
 <p>Run <code>composer install</code> or <code>composer update</code> to download the dependencies.</p>
