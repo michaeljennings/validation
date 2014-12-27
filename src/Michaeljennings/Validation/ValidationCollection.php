@@ -1,20 +1,9 @@
 <?php namespace Michaeljennings\Validation;
 
 use Closure;
+use Illuminate\Container\Container;
 
-class ValidationCollection {
-
-	/**
-	 * An instance of the IOC container
-	 * 
-	 * @var Illuminate\Container\Container
-	 */
-	protected $app;
-
-	public function __construct($app)
-	{
-		$this->app = $app;
-	}
+class ValidationCollection extends Container {
 
 	/**
 	 * Return a validation closure from the collection
@@ -24,7 +13,7 @@ class ValidationCollection {
 	 */
 	public function get($name)
 	{
-		return $this->app->make($name);
+		return $this->make($name);
 	}
 
 	/**
@@ -36,7 +25,7 @@ class ValidationCollection {
 	 */
 	public function put($name, Closure $callback)
 	{
-		$this->app->singleton($name, function($app) use ($callback)
+		$this->singleton($name, function() use ($callback)
 		{
 			return $callback;
 		});

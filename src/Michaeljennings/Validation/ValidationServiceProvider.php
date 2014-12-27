@@ -19,7 +19,7 @@ class ValidationServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('mikeyj199/validation');
+		$this->package('michaeljennings/validation');
 	}
 
 	/**
@@ -31,7 +31,7 @@ class ValidationServiceProvider extends ServiceProvider {
 	{
 		$this->app->singleton('validation', function($app)
 		{
-			return new Validation(new ValidationCollection($app), $app['validator']);
+			return new Validation(new ValidationCollection, $app['validator']);
 		});
 	}
 
