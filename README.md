@@ -32,7 +32,7 @@ quicker and simpler.</p>
 </pre>
 <p>Publish the config files using the <code>php artisan config:publish michaeljennings/validation</code></p>
 <p>By default the validators are store in a <code>app/validators.php</code> so you may need to create this file. 
-Alternitively if you want to store your validators else where you can update the path in the package config.</p>
+Alternatively if you want to store your validators else where you can update the path in the package config.</p>
 
 <h2>Usage</h2>
 <h3>Creating a Validator</h3>
@@ -50,7 +50,7 @@ Validation::add('exampleValidator', function($validator)
 </pre>
 <p>To break this down the <code>Validation::add('exampleValidator', function($validator) {});</code> adds a new 
 validator into a collection with the name <code>'exampleValidator'</code>.</p>
-<p>We then add all of our validaiton rules on the <code>$validator</code> object. To create a new rule we use the 
+<p>We then add all of our validation rules on the <code>$validator</code> object. To create a new rule we use the 
 <code>rule</code> function and then we can chain the laravel validation rules on the rule object.</p>
 <p>For example if we wanted to validate an email field to make sure a value was passed and that the value was a valid 
 email address we could use <code>$validator->rule('email')->required()->email();</code>.</p>
@@ -61,10 +61,10 @@ are valid.</p>
 <a href="http://laravel.com/docs/4.2/validation#available-validation-rules" target="_blank">see the laravel docs.</a>
 <h3>Validation Error Messages</h3>
 <p>If you need to set a different validation error message we can use the <code>message</code> function. The 
-message funciton takes two arguments, the validation rule the message is shown for and the error message.</p>
+message function takes two arguments, the validation rule the message is shown for and the error message.</p>
 <pre>
   <code>
-$validator->rule('foo')->required()->message('required', 'This is a different validaiton message');
+$validator->rule('foo')->required()->message('required', 'This is a different validation message');
   </code>
 </pre>
 <h3>Using a Validator</h3>
@@ -90,7 +90,7 @@ if (Validation::make('exampleValidator', Input::all())->fails()) {
 }
   </code>
 </pre>
-<p>If you need to add a rule to the validator after it has been made you can do so by using the <code>rule</code>\
+<p>If you need to add a rule to the validator after it has been made you can do so by using the <code>rule</code>
 function to create the new rules and then the <code>createRules</code> function to update the validators rules.</p>
 <pre>
   <code>
