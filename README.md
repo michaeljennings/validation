@@ -100,4 +100,3 @@ Validation::rule('foo')->required();
 Validation::createRules();
   </code>
 </pre>
-<p>test</p>
