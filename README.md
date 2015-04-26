@@ -1,4 +1,4 @@
-<h1>Validation</h1>
+# Validation [![Latest Stable Version](https://poser.pugx.org/michaeljennings/validation/v/stable)](https://packagist.org/packages/michaeljennings/validation)[![Latest Unstable Version](https://poser.pugx.org/michaeljennings/validation/v/unstable)](https://packagist.org/packages/michaeljennings/validation) [![License](https://poser.pugx.org/michaeljennings/validation/license)](https://packagist.org/packages/michaeljennings/validation)
 <p>A laravel 4 validation package aiming to help you clean up your controllers and models, and make validation 
 quicker and simpler.</p>
 <h2>Installation</h2>
