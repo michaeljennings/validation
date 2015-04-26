@@ -1,6 +1,7 @@
 {
     "name": "michaeljennings/validation",
     "description": "A laravel 4 validation package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Michael Jennings",
